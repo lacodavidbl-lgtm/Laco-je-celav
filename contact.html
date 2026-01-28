@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerHub | Contact</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.png" alt="PowerHub logo" />
+        <span>PowerHub</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="production.html">Production</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact PowerHub</h2>
+          <p>
+            Connect with our team for product catalogs, procurement planning, or partnership
+            proposals.
+          </p>
+        </div>
+        <div class="grid columns-2">
+          <form id="contact-form" class="card form" novalidate>
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+            </div>
+            <div>
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" placeholder="jane@university.edu" required />
+            </div>
+            <div>
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Procurement inquiry" required />
+            </div>
+            <div>
+              <label for="details">Message</label>
+              <textarea id="details" name="details" placeholder="Tell us about your training facility." required></textarea>
+            </div>
+            <button class="button" type="submit">Submit message</button>
+            <div id="form-message" class="form-message" aria-live="polite"></div>
+          </form>
+
+          <div class="card">
+            <h3>Fictional contact details</h3>
+            <p>
+              PowerHub Headquarters<br />
+              128 Forge Avenue, District 9<br />
+              Northbridge, NY 10028
+            </p>
+            <p>
+              Phone: +1 (555) 014-9911<br />
+              Email: partnerships@powerhub.fit
+            </p>
+            <p>
+              Hours: Monday–Friday, 08:00–18:00 EST
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.png" alt="PowerHub logo" />
+        <span>PowerHub</span>
+      </a>
+      <div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="production.html">Production</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p class="footer-bottom">PowerHub &copy; 2024. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
